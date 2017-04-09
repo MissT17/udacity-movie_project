@@ -1,0 +1,198 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>Fresh Tomatoes!</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            padding-top: 80px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #EEE;   
+            cursor: pointer;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+        .new_font {
+            font-style: italic;
+            font-size: 16px; 
+            
+        }
+        .hidden{
+            display:none;
+        }
+
+        .storyline-wrapper{
+            padding: 0;
+        }
+
+        .storyline-wrapper:hover .hidden{
+            display:block !important;
+            visibility:visible !important;
+            width: 100%;
+            height: 100%;  
+            background-color:white;
+            opacity:0.8;
+            position: absolute;
+            padding-top: 100px;
+            padding-left:50px;
+            padding-right:5px;
+            font-size:14px;
+            font-weight: bold;
+            color:black;
+            font-style: italic;
+        }
+        .storyline{
+            position: absolute;
+            width: 100%;
+            height: 88%;
+        }
+       
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-tile', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+          });
+        });
+    </script>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="Jlp94-C31cY" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">A romantic thriller about a Canadian intelligence officer and Marion Cotillard as a French Resistance fighter and collaborator, who fall in love during a mission in Casablanca.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/43/Allied_%28film%29.png" width="220" height="342">
+    <h2 class="new_font">Allied</h2>
+        
+</div>
+
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="BkL9l7qovsE" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">Set during World War II, the film focuses on an American expatriate who must choose between his love for a woman and helping her Czech Resistance leader husband escape the Vichy-controlled city of Casablanca to continue his fight against the Nazis.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg" width="220" height="342">
+    <h2 class="new_font">Casablanca</h2>
+        
+</div>
+
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="x_EZZrIErDI" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">A superhero film with a plot that revolves around a 'mutant cure' that causes serious repercussions among mutants and humans.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/X-Men_The_Last_Stand.jpg" width="220" height="342">
+    <h2 class="new_font">X-Men: The Last Stand</h2>
+        
+</div>
+
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="nbNcULQFojc" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">An American superhero film series based on the fictional superhero team of the same name.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/XMen1poster.jpg" width="220" height="342">
+    <h2 class="new_font">X-Men</h2>
+        
+</div>
+
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="th1NTVIhUQU" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">In the film, which follows the events of X-Men: The Last Stand, Logan travels to Japan, where he engages an old acquaintance in a struggle that has lasting consequences. Stripped of his healing factor, Wolverine must battle deadly samurai while struggling with guilt.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/74/The_Wolverine_posterUS.jpg" width="220" height="342">
+    <h2 class="new_font">The Wolverine</h2>
+        
+</div>
+
+<div class="col-xs-12  col-sm-6 col-md-6  col-lg-4 movie-tile text-center storyline-wrapper" data-trailer-youtube-id="lFJywpD2PU4" data-toggle="modal" data-target="#trailer">
+    <div class="storyline">
+        <div class="hidden">A story of a duke who travels through time from New York in 1876 to the present and falls in love with a woman in modern New York.</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Kate_and_leopold_ver2.jpg" width="220" height="342">
+    <h2 class="new_font">Kate & Leopold</h2>
+        
+</div>
+
+    </div>
+  </body>
+</html>
