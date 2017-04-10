@@ -4,7 +4,7 @@ This program allows to dynamically create a webpage with the list of movies that
 
 # Directory Structure
 
-In the GitHub *website_project/api* repository you will find the following files:
+In the GitHub *website_project/standard* repository you will find the following files:
   1. `media.py` - the file contains all the information related to the `class Movie()`   
   2. `fresh_tomatoes.py` - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file
 displayed in the browser.
