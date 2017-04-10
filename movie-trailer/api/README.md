@@ -47,8 +47,8 @@ In the github *website_project/api* repository you will find the following files
 # Requirements
 
 1. Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
-  ..1 Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
-  ..2 Type `python` or `python --v` in the command line, which should provide you with something similar to: 
+  ..1. Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
+  ..2. Type `python` or `python --v` in the command line, which should provide you with something similar to: 
   ```
   Python 2.7.5 (default, Jun 17 2014, 18:11:42)
   [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
