@@ -37,7 +37,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;   
+            background-color: #EEE;
             cursor: pointer;
         }
         .scale-media {
@@ -55,8 +55,8 @@ main_page_head = '''
         }
         .new_font {
             font-style: italic;
-            font-size: 16px; 
-            
+            font-size: 16px;
+
         }
         .hidden{
             display:none;
@@ -70,7 +70,7 @@ main_page_head = '''
             display:block !important;
             visibility:visible !important;
             width: 100%;
-            height: 100%;  
+            height: 100%;
             background-color:white;
             opacity:0.8;
             position: absolute;
@@ -87,7 +87,7 @@ main_page_head = '''
             width: 100%;
             height: 88%;
         }
-       
+
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -134,7 +134,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    
+
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -160,18 +160,19 @@ movie_tile_content = '''
     </div>
     <img src="{poster_image_url}" width="220" height="342">
     <h2 class="new_font">{movie_title}</h2>
-        
+
 </div>
 '''
+
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
-        youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
-        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url) # NOQA
-        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match else None
+        youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)  # NOQA
+        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)  # NOQA
+        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match else None  # NOQA
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
@@ -182,17 +183,19 @@ def create_movie_tiles_content(movies):
         )
     return content
 
+
 def open_movies_page(movies):
-  # Create or overwrite the output file
-  output_file = open('fresh_tomatoes.html', 'w')
+    # Create or overwrite the output file
+    output_file = open('fresh_tomatoes.html', 'w')
 
-  # Replace the placeholder for the movie tiles with the actual dynamically generated content
-  rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))
+    # Replace the placeholder for the movie tiles with the actual dynamically
+    # generated content
+    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies))  # NOQA
 
-  # Output the file
-  output_file.write(main_page_head + rendered_content)
-  output_file.close()
+    # Output the file
+    output_file.write(main_page_head + rendered_content)
+    output_file.close()
 
-  # open the output file in the browser
-  url = os.path.abspath(output_file.name)
-  webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    # open the output file in the browser
+    url = os.path.abspath(output_file.name)
+    webbrowser.open('file://' + url, new=2)   # open in a new tab, if possible
