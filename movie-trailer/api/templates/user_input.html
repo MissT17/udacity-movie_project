@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to the Fresh Tomatoes Movie Trailer Website</title>
+    <title>Fresh Tomatoes Movie Trailer Website</title>
+     <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/starter-template/starter-template.css">
   </head>
 <body>
-    <form method="post" action="/user_output">
-    First film title: <input type="text" name="first_film"><br>
-    <p></p>
-    Second film title: <input type="text" name="second_film"><br>
-    <p></p>
-    Third film title: <input type="text" name="third_film"><br>
-    <p></p>
-    <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+      <div class="starter-template">
+        <h1>Your favorite movies</h1>
+        <p class="lead">Fill in the form with the titles of your favourite movies.</p>
+        <form method="post" action="/user_output">
+          <div class="form-group">
+            <input type="text" name="first_film" placeholder="First film title">
+          </div>
+          <div class="form-group">
+            <input type="text" name="second_film" placeholder="Second film title">
+          </div>
+          <div class="form-group">
+           <input type="text" name="third_film" placeholder="Third film title">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
 </body>
 </html>
