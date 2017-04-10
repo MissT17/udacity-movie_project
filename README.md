@@ -1,3 +1,3 @@
 # Udacity Projects
 
-Projects for the udacity full stack web developper nano degree.
+Projects for the udacity full stack web developper nanodegree.
