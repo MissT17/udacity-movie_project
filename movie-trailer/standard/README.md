@@ -14,7 +14,7 @@ In the GitHub *udacity/movie-trailer/standard* repository you will find the foll
 # Requirements
 
 Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
-  1. Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
+  1. Open the terminal on your computer (if you use Mac: go to Applications > Utilities > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
   2. Type `python` or `python --v` in the command line, which should provide you with something similar to: 
        ```
        Python 2.7.5 (default, Jun 17 2014, 18:11:42)
@@ -27,9 +27,9 @@ Please make sure that a 2.7 version of Python is installed on your machine (as t
 # Installation
 
 1. Download the files from the GitHub repository. It's important that *all* the files are saved within the same folder on your computer.
-2. Open the terminal on your machine (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
+2. Open the terminal on your machine (if you use Mac: go to Applications > Utilities > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
 3. Navigate in the terminal to the folder that contains the downloaded files.
-4. Run the entertainment_center.py file by inserting `python entertainment_center.py`
+4. Run the `entertainment_center.py` file by inserting `python entertainment_center.py` in the terminal.
 
 # Expected Outcome
 
