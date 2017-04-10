@@ -23,9 +23,9 @@ In the github *website_project/api* repository you will find the following files
    The terminal will provide you with the adress that you need to insert into the browser to start the program.
    ```
    Running on **http://127.0.0.1:5000/** (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 129-045-349
+   * Restarting with stat
+   * Debugger is active!
+   * Debugger PIN: 129-045-349
    ```
    At this point you should see a form in the browser.
 
