@@ -4,7 +4,7 @@ from test_api import create_film_list
 
 app = Flask(__name__)
 
-
+# Create a default URL 
 @app.route('/')
 def user_input_form():
     return render_template('user_input.html')
@@ -12,6 +12,7 @@ def user_input_form():
 
 @app.route('/user_output', methods=['POST'])
 def User_submit():
+    # Create a list of films entered by the user.
     requested_films = []
     film_request1 = request.form['first_film']
     film_request2 = request.form['second_film']
