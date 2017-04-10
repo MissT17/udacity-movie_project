@@ -4,7 +4,7 @@ This program allows to dynamically create/generate a webpage with the list of us
 
 # Directory Structure
 
-In the github *website_project/api* repository you will find the following files:
+In the GitHub *website_project/api* repository you will find the following files:
   1. `media.py` - the file contains all the information related to the `class Movie()`   
   2. `youtube_video_api.py` - contains the function that allows to do the search of the corresponding video trailers on youtube via the API.
   3. `test_api.py` - the core file of the API integration, it allows to dynamically construct the queries that are used to retrieve the data  from Youtube and OMDB (the titles of the films, their short descriptions, the poster images and the youtube video trailers.
