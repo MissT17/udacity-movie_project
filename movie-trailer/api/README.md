@@ -17,7 +17,7 @@ In the GitHub *udacity/movie-trailer/api* repository you will find the following
 
 1. Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
    1. Open the terminal on your computer (if you use Mac: go to Applications > Utilities > Terminal, on Windows machines it corresponds to Start >         Program Files > Accessories > Command Prompt)  
-   2. Type `python` or `python --v` in the command line, which should return to you something similar to: 
+   2. Type `python` or `python -v` in the command line, which should return to you something similar to: 
       ```
       Python 2.7.5 (default, Jun 17 2014, 18:11:42)
       [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
@@ -63,7 +63,7 @@ In the GitHub *udacity/movie-trailer/api* repository you will find the following
    
 # Expected Outcome
 
-Once the form appears in the browser, fill in the corresponding fields with the titles of your favourite movies. (Please make sure the spelling is correct), then click **__Submit__**. On click a new page will open up with your favourite movies displayed. By clicking on a poster image, you will activate the video trailer which will be displayed in the center of the page. The video will start automatically once you click on the poster and the player window opens. The video will stop automatically and the player will be closed, if you click outside the video window or close the player. On hovering the images, a short movie description will be displayed over the poster. 
+Once the form appears in the browser, fill in the corresponding fields with the titles of your favourite movies. (Please make sure the spelling is correct and the titles are exact, if the titles are not accurate and the films have multiple versions, the latest Youtube trailer will be used as reference), then click **__Submit__**. On click a new page will open up with your favourite movies displayed. By clicking on a poster image, you will activate the video trailer which will be displayed in the center of the page. The video will start automatically once you click on the poster and the player window opens. The video will stop automatically and the player will be closed, if you click outside the video window or close the player. On hovering the images, a short movie description will be displayed over the poster. 
 
 # License
 
