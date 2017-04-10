@@ -1,13 +1,13 @@
 # Movie Trailer Project Description
 
-This program allows to dynamically create/generate a webpage with the list of user's favourite movies. The list of movies is created directly on the fly from the user inputs (titles of the movies). The links to the movie trailers, the short description of the films as well as the poster images are imported from [youtube](https://www.youtube.com/) and from a movie database, [omdb](http://www.omdbapi.com/). By hovering the movie images the user can read the description of each movie and watch the video trailers by clicking on corresponding film poster images. 
+This program allows to dynamically create/generate a webpage with the list of user's favourite movies. The list of movies is created directly on the fly from the user inputs (titles of the movies). The links to the movie trailers, the short description of the films as well as the poster images are imported from [Youtube](https://www.youtube.com/) and from a movie database, [OMDB](http://www.omdbapi.com/). By hovering the movie images the user can read the description of each movie and watch the video trailers by clicking on corresponding film poster images. 
 
 # Directory Structure
 
 In the GitHub *website_project/api* repository you will find the following files:
   1. `media.py` - the file contains all the information related to the `class Movie()`   
-  2. `youtube_video_api.py` - contains the function that allows to do the search of the corresponding video trailers on youtube via the API.
-  3. `test_api.py` - the core file of the API integration, it allows to dynamically construct the queries that are used to retrieve the data  from Youtube and OMDB (the titles of the films, their short descriptions, the poster images and the youtube video trailers.
+  2. `youtube_video_api.py` - contains the function that allows to execute the search of the corresponding video trailers on Youtube via the API.
+  3. `test_api.py` - the core file of the API integration, it allows to dynamically construct the queries that are used to retrieve the data  from Youtube and OMDB (titles of the films, short descriptions, poster images and Youtube video trailers).
   4. `fresh_tomatoes.py` - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file in the *templates* folder
   5. `server.py` - contains the methods related to *flask*. Flask is used to create a server environment allowing to receive the user request in terms of the films that he/she would like to display on the page, run this information through the program and return the html page to the browser.
   6. `/templates` folder contains the user_input.html file that displays the form that the users fill in with the titles of their favourite movies.
