@@ -16,18 +16,17 @@ In the GitHub *udacity/movie-trailer/api* repository you will find the following
 # Requirements
 
 1. Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
-  1. Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start >    Program Files > Accessories > Command Prompt)
+  1. Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start >         Program Files > Accessories > Command Prompt)
   2.Type `python` or `python --v` in the command line, which should return to you something similar to: 
-       ```
-       Python 2.7.5 (default, Jun 17 2014, 18:11:42)
-       [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
-       Type “help”, “copyright”, “credits” or “license” for more information.
-       ```
+  ```
+  Python 2.7.5 (default, Jun 17 2014, 18:11:42)
+  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
+  Type “help”, “copyright”, “credits” or “license” for more information.
+  ```
   If there is no Python installed, please install it on your machine. You can find the necessary links for download here:
   [Python](https://wiki.python.org/moin/BeginnersGuide/Download)
 2. Please check if you also have Flask installed on the machine. If that is not the case, please follow the following guidelines [here](https://pypi.python.org/pypi/Flask/0.12).
 3. You will also need to open a developer Youtube API account. Please follow a quick guide here: (https://youtu.be/Im69kzhpR3I) 
-
 
 # Installation
 
