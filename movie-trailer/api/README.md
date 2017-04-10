@@ -35,9 +35,9 @@ In the github *website_project/api* repository you will find the following files
    Insert your Youtube API Key into the corresponding field `os.environ['API_KEY'] = ' YOUR KEY GOES HERE'` and save the file in the folder with the rest of the files. (Please read the **__Installation__** section below to find out how to get a Youtube API Key.)  
 3. Open the Terminal on your machine (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
 4. In the terminal navigate to the folder that contains the downloaded documents and start the local server by running the following code in it: `python server.py`
-   The terminal will provide you with the address that you need to insert into the browser to start the program.
+   The terminal will provide you with the address(URL) that you need to insert into the browser to start the program.
    ```
-     Running on **http://127.0.0.1:5000/** (Press CTRL+C to quit)
+   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
    * Restarting with stat
    * Debugger is active!
    * Debugger PIN: 129-045-349
