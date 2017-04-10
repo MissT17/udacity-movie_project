@@ -15,7 +15,7 @@ In the GitHub *website_project/api* repository you will find the following files
 
 # Installation
 
-1. Download the files from the github repository. It's important that *all* the files are saved within the same folder on your computer.
+1. Download the files from the GitHub repository. It's important that *all* the files are saved within the same folder on your computer.
 2. In your text editor create a new file called hidden.py. Insert the following piece of code into it:
    ```
    import os
