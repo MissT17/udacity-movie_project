@@ -45,8 +45,7 @@ In the GitHub *udacity/movie-trailer/api* repository you will find the following
        my_key = os.environ['API_KEY']
        my_cred = os.environ['GOOGLE_APPLICATION_CREDENTIALS']
        return my_key
-       return my_cred
-
+       
    passkey()
    ```
    Insert your Youtube API Key into the corresponding field `os.environ['API_KEY'] = 'YOUR KEY GOES HERE'` and save the file in the            folder with the rest of the files. (Please read the [Requirements](https://github.com/MissT17/udacity/blob/master/movie-trailer/api/README.md#requirements) section to find out how to get your Youtube API Key.)  
