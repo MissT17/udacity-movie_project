@@ -25,7 +25,7 @@ In the GitHub *udacity/movie-trailer/api* repository you will find the following
       ```
       If there is no Python installed, please install it on your machine. You can find the necessary links for download here: [Python](https://wiki.python.org/moin/BeginnersGuide/Download)
   
-2. Please check if you also have Flask installed on the machine. If that is not the case, please follow the following guidelines [here|(https://pypi.python.org/pypi/Flask/0.12). 
+2. Please check if you also have Flask installed on the machine. If that is not the case, please follow the following guidelines [here](https://pypi.python.org/pypi/Flask/0.12). 
 3. You will also need to open a developer Youtube API account. Please follow a quick guide here: (https://youtu.be/Im69kzhpR3I) 
 
 # Installation
