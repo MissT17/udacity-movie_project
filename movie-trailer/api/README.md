@@ -32,7 +32,7 @@ In the GitHub *website_project/api* repository you will find the following files
    passkey()
    ```
    Insert your Youtube API Key into the corresponding field `os.environ['API_KEY'] = ' YOUR KEY GOES HERE'` and save the file in the folder with the rest of the files. (Please read the **__Requirements__** section below to find out how to get your Youtube API Key.)  
-3. Open the Terminal on your machine (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
+3. Open the terminal on your machine (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
 4. In the terminal navigate to the folder that contains the downloaded documents and start the local server by running the following code in it: `python server.py`
    The terminal will provide you with the address(URL) that you need to insert into the browser to start the program.
    ```
@@ -48,24 +48,23 @@ In the GitHub *website_project/api* repository you will find the following files
 1. Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
     1. Open the terminal on your computer (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
     2. Type `python` or `python --v` in the command line, which should provide you with something similar to: 
-  ```
-  Python 2.7.5 (default, Jun 17 2014, 18:11:42)
-  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
-  Type “help”, “copyright”, “credits” or “license” for more information.
-  ``` 
+       ```
+       Python 2.7.5 (default, Jun 17 2014, 18:11:42)
+       [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
+       Type “help”, “copyright”, “credits” or “license” for more information.
+       ``` 
   If there is no Python installed, please install it on your machine. You can find the necessary links for download here:
   [Python](https://wiki.python.org/moin/BeginnersGuide/Download)
   
 2. Please check if you also have Flask installed on the machine. If that is not the case, please follow the following guidelines [here](https://pypi.python.org/pypi/Flask/0.12).
 3. You will also need to open a developer youtube API account. Please follow a quick guide here: (https://youtu.be/Im69kzhpR3I) 
-4. You would also need to know what the IP adress of your machine is. To quickly find out this information, you can visit the following website: (http://whatismyipaddress.com/) or just type *My IP* in Google and it will provide with a set of numbers. 
 
 # Expected Outcome
 
-Once the form appears in the browser, fill in the corresponding fields with the titles of your favourite movies. (Please make sure the spelling is correct), then click **__Submit__** On click a new page will open up with your favourite movies displayed. By clicking on the poster images, you will activate the video trailer which will be displayed in the center of the page. The video will start automatically once you click on the poster and the player window opens. The video will stop automatically and the player will be closed, if you click outside the video window or close the player. On hovering the images, a short description of the movie will be displayed over the poster. 
+Once the form appears in the browser, fill in the corresponding fields with the titles of your favourite movies. (Please make sure the spelling is correct), then click **__Submit__**. On click a new page will open up with your favourite movies displayed. By clicking on a poster image, you will activate the video trailer which will be displayed in the center of the page. The video will start automatically once you click on the poster and the player window opens. The video will stop automatically and the player will be closed, if you click outside the video window or close the player. On hovering the images, a short description of the movies will be displayed over the poster. 
 
 # License
 
-The *fresh_tomatoes.py* code was provided by Udacity in its course, the rest of the files were created by the owner of this repository on the basis of the introductory course to Python class given by Udacity. All poster images and descriptions are provided by OMDB and the trailers are taken from youtube.
+The `fresh_tomatoes.py` code was provided by Udacity in its course, the rest of the files were created by the owner of this repository on the basis of the introductory course to Python class given by Udacity. All poster images and descriptions are provided by OMDB and the trailers are taken from Youtube.
 
 
