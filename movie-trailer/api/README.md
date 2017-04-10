@@ -1,4 +1,4 @@
-# website_project
+# Movie Trailer Project Description
 
 This program allows to dynamically create/generate a webpage with the list of user's favourite movies. The list of movies is created directly on the fly from the user inputs (titles of the movies). The links to the movie trailers, the short description of the films as well as the poster images are imported from [youtube](https://www.youtube.com/) and from a movie database, [omdb](http://www.omdbapi.com/). By hovering the movie images the user can read the description of each movie and watch the video trailers by clicking on corresponding film poster images. 
 
