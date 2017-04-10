@@ -22,7 +22,7 @@ In the github *website_project/api* repository you will find the following files
 4. In the terminal navigate to the folder that contains the downloaded documents and open the server.py file: `python server.py`
    The terminal will provide you with the adress that you need to insert into the browser to start the program.
    ```
-   Running on **http://127.0.0.1:5000/** (Press CTRL+C to quit)
+     Running on **http://127.0.0.1:5000/** (Press CTRL+C to quit)
    * Restarting with stat
    * Debugger is active!
    * Debugger PIN: 129-045-349
@@ -33,13 +33,11 @@ In the github *website_project/api* repository you will find the following files
 1. Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
   1. Open the terminal on your computer (if you use Mac: go to Applications > iTerm, on Windows machines it corresponds to...) 
   2. Type `python` or `python --v` in the command line, which should provide you with something similar to: 
-  
-> Python 2.7.5 (default, Jun 17 2014, 18:11:42)
-
-> [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
-
-> Type “help”, “copyright”, “credits” or “license” for more information.
-
+  ```
+  Python 2.7.5 (default, Jun 17 2014, 18:11:42)
+  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
+  Type “help”, “copyright”, “credits” or “license” for more information.
+  ``` 
 If there is no Python installed, please install it on your machine. You can find the necessary links for download here:
 [Python](https://wiki.python.org/moin/BeginnersGuide/Download)
 2. Please check if you also have Flask installed on the machine. If that is not the case, please follow the following guidelines [here] (https://pypi.python.org/pypi/Flask/0.12).
