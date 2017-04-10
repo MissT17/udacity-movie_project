@@ -31,7 +31,7 @@ In the GitHub *website_project/api* repository you will find the following files
 
    passkey()
    ```
-   Insert your Youtube API Key into the corresponding field `os.environ['API_KEY'] = ' YOUR KEY GOES HERE'` and save the file in the folder with the rest of the files. (Please read the [**__Requirements__**](https://github.com/MissT17/udacity/blob/master/movie-trailer/api/README.md#installation) section below to find out how to get your Youtube API Key.)  
+   Insert your Youtube API Key into the corresponding field `os.environ['API_KEY'] = ' YOUR KEY GOES HERE'` and save the file in the folder with the rest of the files. (Please read the [Requirements](https://github.com/MissT17/udacity/blob/master/movie-trailer/api/README.md#requirements) section below to find out how to get your Youtube API Key.)  
 3. Open the terminal on your machine (if you use Mac: go to Applications > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
 4. In the terminal navigate to the folder that contains the downloaded documents and start the local server by running the following code in it: `python server.py`
    The terminal will provide you with the address(URL) that you need to insert into the browser to start the program.
