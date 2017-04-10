@@ -5,13 +5,13 @@ This program allows to dynamically create/generate a webpage with the list of us
 # Directory Structure
 
 In the github *website_project/api* repository you will find the following files:
-  1. media.py - the file contains all the information related to the `class Movie()`   
-  2. youtube_video_api.py - contains the function that allows to do the search of the corresponding video trailers on youtube via the API.
-  3. test_api.py - the core file of the API integration, it allows to dynamically construct the queries that are used to retrieve the data  from Youtube and OMDB (the titles of the films, their short descriptions, the poster images and the youtube video trailers.
-  4. fresh_tomatoes.py - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file in the *templates* folder
-  5. server.py - contains the methods related to *flask*. Flask is used to create a server environment allowing to receive the user request in terms of the films that he/she would like to display on the page, run this information through the program and return the html page to the browser.
-  6. templates folder contains the user_input.html file that displays the form that the users fill in with the titles of their favourite movies.
-  7. README.md - contains a short "How To" which I hope you are enjoying right now.
+  1. `media.py` - the file contains all the information related to the `class Movie()`   
+  2. `youtube_video_api.py` - contains the function that allows to do the search of the corresponding video trailers on youtube via the API.
+  3. `test_api.py` - the core file of the API integration, it allows to dynamically construct the queries that are used to retrieve the data  from Youtube and OMDB (the titles of the films, their short descriptions, the poster images and the youtube video trailers.
+  4. `fresh_tomatoes.py` - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file in the *templates* folder
+  5. `server.py` - contains the methods related to *flask*. Flask is used to create a server environment allowing to receive the user request in terms of the films that he/she would like to display on the page, run this information through the program and return the html page to the browser.
+  6. `/templates` folder contains the user_input.html file that displays the form that the users fill in with the titles of their favourite movies.
+  7. `README.md` - contains a short "How To" which I hope you are enjoying right now.
 
 # Installation
 
