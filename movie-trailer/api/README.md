@@ -66,4 +66,4 @@ Once the form appears in the browser, fill in the corresponding fields with the 
 
 # License
 
-The `fresh_tomatoes.py` code was provided by Udacity in its course, the rest of the files were created by the owner of this repository on the basis of the introductory course to Python class given by Udacity. All poster images and descriptions are provided by OMDB and the trailers are taken from Youtube.
+The `fresh_tomatoes.py` code was provided by Udacity in its course, the code related to the Youtube API implementation was done according to the Youtube guidelines and influenced by its sample code, the rest of the files were created by the owner of this repository on the basis of the introductory course to Python class given by Udacity. All poster images and descriptions are provided by OMDB and the trailers are taken from Youtube.
