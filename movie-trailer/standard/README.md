@@ -9,27 +9,18 @@ In the GitHub *udacity/movie-trailer/standard* repository you will find the foll
   2. `fresh_tomatoes.py` - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file
       displayed in the browser.
   3. `entertainment_center.py` - this files contains the list of all the movies displayed on the webpage
-  4. `README.md` - contains a short "How To" which I hope you are enjoying right now.
+  4. `README.md` - contains a short "How To" to run the program.
   
 # Requirements
 
-Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). In order to check if you have the necessary Python version installed:
-  1. Open the terminal on your computer (if you use Mac: go to Applications > Utilities > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt) 
-  2. Type `python` or `python -v` in the command line, which should provide you with something similar to: 
-       ```
-       Python 2.7.5 (default, Jun 17 2014, 18:11:42)
-       [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
-       Type “help”, “copyright”, “credits” or “license” for more information.
-       ``` 
-  If there is no Python installed, please install it on your machine. You can find the necessary links for download here:
-  [Python](https://wiki.python.org/moin/BeginnersGuide/Download)
+Please make sure that a 2.7 version of Python is installed on your machine (as the code is adapted to this version of Python). 
 
 # Installation
 
 1. Download the files from the GitHub repository. It's important that *all* the files are saved within the same folder on your computer.
 2. Open the terminal on your machine (if you use Mac: go to Applications > Utilities > Terminal, on Windows machines it corresponds to Start > Program Files > Accessories > Command Prompt).
 3. Navigate in the terminal to the folder that contains the downloaded files.
-4. Run the `entertainment_center.py` file by inserting `python entertainment_center.py` in the terminal.
+4. Run the `entertainment_center.py` file. 
 
 # Expected Outcome
 
