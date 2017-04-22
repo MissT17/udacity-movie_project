@@ -27,7 +27,7 @@ film3 = media.Movie("X-Men: The Last Stand", "A superhero film with a plot"
 
 film4 = media.Movie("X-Men", "An American superhero film series"
                     " based on the fictional superhero team of the same name.",
-                    "https://upload.wikimedia.org/wikipedia/en/8/8c/XMen1poster.jpg",  # NOQA
+                    "https://upload.wikimedia.org/wikipedia/en/8/81/X-MenfilmPoster.jpg",  # NOQA
                     "https://www.youtube.com/watch?v=nbNcULQFojc")
 
 film5 = media.Movie("The Wolverine", "In the film, which follows"
