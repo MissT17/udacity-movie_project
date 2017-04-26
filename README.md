@@ -4,11 +4,11 @@ This program allows to dynamically create a webpage with the list of movies that
 
 # Directory Structure
 
-In the GitHub *udacity/movie-trailer/standard* repository you will find the following files:
+In the GitHub *udacity-movie_project* repository you will find the following files:
   1. `media.py` - the file contains all the information related to the `class Movie()`   
   2. `fresh_tomatoes.py` - contains all the HTML, CSS, JS, PYTHON code that allows to design, generate and create the .html file
       displayed in the browser.
-  3. `entertainment_center.py` - this files contains the list of all the movies displayed on the webpage
+  3. `entertainment_center.py` - contains the list of all the movies displayed on the webpage
   4. `README.md` - contains a short "How To" to run the program.
   
 # Requirements
